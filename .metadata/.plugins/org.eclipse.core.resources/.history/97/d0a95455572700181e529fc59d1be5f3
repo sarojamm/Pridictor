@@ -1,0 +1,11 @@
+package text.predictor.ngram;
+
+import org.apache.commons.cli.Options;
+
+public class NgramFrequency {
+	  public static void main(String[] args) {
+	        Options options = new Options();
+	        
+	    }
+
+}

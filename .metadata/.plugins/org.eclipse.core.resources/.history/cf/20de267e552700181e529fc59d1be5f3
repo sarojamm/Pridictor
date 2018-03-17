@@ -1,0 +1,5 @@
+package text.predictor.ngram;
+
+public class NgramFrequency {
+
+}

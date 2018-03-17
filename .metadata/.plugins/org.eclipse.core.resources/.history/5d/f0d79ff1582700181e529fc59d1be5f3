@@ -1,0 +1,26 @@
+package text.predictor.ngram;
+
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.DefaultParser;
+import org.apache.commons.cli.Options;
+import org.apache.commons.cli.ParseException;
+
+public class NgramFrequency {
+	  public static void main(String[] args) {
+	        Options options = new Options();
+	        options.addOption("outDir",true,"choose file");
+	        CommandLineParser clp = new DefaultParser();
+	        try {
+				CommandLine cmd = clp.parse(options, args);
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	        
+	    }
+	  public void saveTokenFrequencies(){
+		  InputStream instream = NgramFrequency.class.getClassLoader().getResourceAsStream("ngramfile.txt")
+	  }
+
+}

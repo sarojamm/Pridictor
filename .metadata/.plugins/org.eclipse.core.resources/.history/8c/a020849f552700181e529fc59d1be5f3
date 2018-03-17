@@ -1,0 +1,8 @@
+package text.predictor.ngram;
+
+public class NgramFrequency {
+	  public static void main(String[] args) {
+	        
+	    }
+
+}
